@@ -1,0 +1,29 @@
+.card-img-whith-text {
+    position: relative;
+    margin: 0 auto;
+}
+.card-img-whith-text img {
+    vertical-align: middle;
+}
+.card-img-whith-text .text-block-bottom {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);/* Black background with opacity */
+    color: #ffffff;
+    width: 100%;
+    padding: 20px;
+}
+.text-white {
+    color: white;
+}
+.card-img-whith-text .text-block-top {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0);/* Black background with opacity */
+    color: #ffffff;
+    width: 30%;
+    padding: 20px;
+}
+.text-red {
+    color: red;
+}
